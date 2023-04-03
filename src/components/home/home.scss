@@ -1,0 +1,170 @@
+
+
+.home-page {
+  h1 {
+    font-size: 53px;
+    font-family: 'sofia';
+    color: #CFB53B;
+    font-weight: 400;
+    margin-top: 0;
+    position: relative;
+    margin-bottom: 10px;
+    left: -10px;
+  }
+  h2{
+    font-family: 'Neucha', cursive; 
+    font-size: 22px;
+    letter-spacing:2px;
+  }
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+  }
+  .download-btn{
+    border-radius: 15px;
+    align-items: center;
+    font-family: 'Neucha', cursive; 
+    font-weight: 100;
+   
+  }
+  .aika-photo{
+    position: static;
+    margin-right:-600px;
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin-top: -360px; 
+    border-radius: 50%;
+    
+  }
+  
+}
+.footer-items{
+  text-align: center;
+  margin-bottom: 2rem;
+  display: block;
+  margin-top: 400px;
+
+}
+
+@media only screen and (max-width: 667px){
+  .home-page {
+    .text-zone {
+      position:static;
+      top: 60%;
+     margin-top: 100%;
+     margin-left: 110%;
+      width: 500%;
+      height: auto;
+     
+    
+    }
+    
+    h1 {
+      width: 500%;
+      margin-top: 60%;
+      margin-left: 60%;
+      text-align: center;
+      }
+
+    h2{
+      font-size: 12rem;
+      letter-spacing:3px;
+      width: 500%; 
+      margin-left: 100%;
+      text-align: center; 
+       }
+      
+  
+    .download-btn{
+      border-radius: 15px;
+      font-family: 'Neucha', cursive; 
+      width: 400%;
+      background-color:rgb(78, 76, 76);
+      height: 150px;
+      margin-left: 100%;
+    
+    }
+    .aika-photo{
+      position: absolute;
+      margin-right:auto;
+      float: right;
+      width: 70%;
+      height: 100%;
+      margin-top: 60px; 
+      
+      
+      
+    }
+    .footer-items{
+    display: none;}
+ 
+  
+}}
+
+/////////////
+
+
+@media only screen and (max-width: 1200px){
+  .home-page {
+    h1 {
+      font-size: 49px;
+      font-family: 'sofia';
+      color: #CFB53B;
+      font-weight: 400;
+      margin-top: 0;
+      position: relative;
+      margin-bottom: 5rem;
+      margin-top: 3rem;
+      left: -10px;
+      padding-top: 0px;
+    }
+    h2{
+      font-family: 'Neucha', cursive; 
+      font-size: 22px;
+      letter-spacing:2px;
+    }
+    .text-zone {
+      position: absolute;
+      left: 5%;
+      top: 30%;
+      transform: translateY(-50%);
+      width: 40%;
+      vertical-align: middle;
+      display: table-cell;
+      max-height: 90%;
+    }
+    .download-btn{
+      border-radius: 15px;
+      align-items: center;
+      font-family: 'Neucha', cursive; 
+      font-weight: 100;
+     
+    }
+    .aika-photo{
+      position: static;
+      margin-right:-420px;
+      float: right;
+      width: 70%;
+      height: 100%;
+      margin-top: -360px;
+      border-radius: 50%;
+    }
+    
+  }
+  .footer-items{
+    text-align: center;
+    margin-bottom: 2rem;
+    display: block;
+    margin-top: 400px;
+    margin-left: 23rem;
+  
+  } 
+
+}

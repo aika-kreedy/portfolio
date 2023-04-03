@@ -1,0 +1,23 @@
+ html{
+  font-size:63%;
+ }
+ 
+ 
+ body {
+  margin: 0;
+  font-family: 300 15px/1.4 'Neucha', cursive;
+  color: whitesmoke;
+  background-color: rgb(58, 57, 57);
+  display: block;
+  height: 100vh;
+  width:  100vw;
+ 
+
+}
+.page{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+

@@ -1,0 +1,132 @@
+.nav-bar{
+  background: black;
+  width: 100vw;
+  height:20%; 
+  position: absolute;
+  top:0;
+  z-index: 3;
+
+}
+.logo{
+    display: block;
+  padding: 5px 0;
+  
+}
+.aika-logo{
+    width: 210px ; 
+    height: 180px; 
+    margin-left: 32px;
+}
+
+
+nav{
+    
+    display:flex;
+    gap:25px;
+    height: 30px;
+    width: 70%;
+    margin-left: 1000px;
+    margin-top:-140px;
+    
+}
+
+.active:hover{
+    color: white;
+   
+}
+
+
+a{
+ 
+    color: #c70894;
+    font-size: 33px;
+    display:block;
+    line-height: 40px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+ 
+
+ul{
+color:rgb(141, 138, 138);
+font-size: 22px;
+display:block;
+margin:auto;
+margin-top:70px;
+position: relative;
+margin-left: 10px;
+line-height: 19px;
+}
+
+
+    .socialmedia-link-G:hover{
+        color:  #B76E79;
+      
+    }
+    .socialmedia-link-F:hover{
+        color:  #B76E79;
+    }
+    .socialmedia-link-L:hover{
+        color:  #B76E79;
+    }
+
+    @media screen and (max-width: 1200px) {
+        .text {
+          font-size: 16px;
+        }
+        ul{
+            margin-top:7.5rem;
+        }
+        nav{
+            margin-left: 600px;
+            margin-top:-40px;
+        }
+
+      }
+
+      @media only screen and (max-width: 667px){
+  
+        .nav-bar{
+            background: black;
+            width: 500%;
+            height:35%; 
+            top:0;
+            z-index: 3;
+          
+          }
+          
+ul{
+color:rgb(165, 163, 163);
+font-size: 7rem;
+display:block;
+margin:auto;
+margin-top:190px;
+position: absolute;
+
+line-height: 19px;
+}
+
+a{
+ 
+    color: #c70894;
+    font-size: 12rem;
+    
+    display:block;
+    line-height: 30px;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+nav{
+    
+    display:flex;
+    gap:70px;
+    height: 30px;
+    width: 60%;
+    margin-left: 450px;
+    margin-top:-110px;
+    
+}
+      }
+      

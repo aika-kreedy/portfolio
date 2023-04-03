@@ -1,0 +1,21 @@
+.cat {
+    animation: walk-cycle 1s steps(12) infinite;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/tuna_sprite.png) 0 0 no-repeat; 
+    height: 200px;
+    width: 400px;
+    margin-top: 450px ;
+    margin-left: 750px;
+  }
+  
+  @keyframes walk-cycle {  
+    0% {background-position: 0 0; } 
+    100% {background-position: 0 -2395px; } 
+  }
+  .amg-badge {
+    padding: 20px 5%;
+    height: 50px;
+    width: 50px;
+    display:inline-flex
+   
+  }
+ 
