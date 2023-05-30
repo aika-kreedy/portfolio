@@ -1,12 +1,13 @@
 .about-text{
   font-size: 50px;
-  font-family:'Neucha', cursive; 
+  font-family:'Neucha', cursive;
+  text-align: justify; 
 }
 
 
 .stage-cube-cont { 
     width: 50%;
-    height: 100%;
+    height: 250%;
     top: 0;
     padding-top:12%;
     margin-left: 0;
@@ -93,12 +94,12 @@
   width: 100%;
   height: 200%;
   top: 0px;
-  padding-top:570%;
+  padding-top:60%;
   padding-bottom:230px ;
   padding-right: 100px;
   margin-left: 0;
   position: absolutes;
-  right: -60rem;
+  right: -75rem;
   overflow: hidden;
 } 
 

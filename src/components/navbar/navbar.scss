@@ -1,21 +1,23 @@
 .nav-bar{
   background: black;
   width: 100vw;
-  height:20%; 
+  height:16%; 
   position: absolute;
   top:0;
   z-index: 3;
 
 }
 .logo{
-    display: block;
+ display: block;
   padding: 5px 0;
   
 }
 .aika-logo{
     width: 210px ; 
-    height: 180px; 
-    margin-left: 32px;
+    height: 200px; 
+    margin-left: 60px;
+    margin-top:-30px;
+    
 }
 
 
@@ -26,7 +28,7 @@ nav{
     height: 30px;
     width: 70%;
     margin-left: 1000px;
-    margin-top:-140px;
+    margin-top:-150px;
     
 }
 
@@ -71,16 +73,22 @@ line-height: 19px;
         color:  #B76E79;
     }
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (min-width: 1000px) {
+        .nav-bar{
+            width: 260%;
+        }
         .text {
           font-size: 16px;
         }
+        .aika-logo{ 
+            margin-top:0px;  
+        }
         ul{
-            margin-top:7.5rem;
+            margin-top:9.5rem;
         }
         nav{
-            margin-left: 600px;
-            margin-top:-40px;
+            margin-left: 570px;
+            margin-top:-140px;
         }
 
       }
@@ -88,11 +96,11 @@ line-height: 19px;
       @media only screen and (max-width: 667px){
   
         .nav-bar{
-            background: black;
+            
             width: 500%;
             height:35%; 
             top:0;
-            z-index: 3;
+            
           
           }
           
@@ -125,8 +133,28 @@ nav{
     height: 30px;
     width: 60%;
     margin-left: 450px;
-    margin-top:-110px;
+    margin-top:-190px;
+    
+}
+.aika-logo{
+    margin-top:0px;
+    width: 270px ; 
+    height: 270px; 
+    margin-left: 70px;
+   
     
 }
       }
-      
+
+      @media only screen and (min-width: 1200px){
+        .aika-logo{
+            margin-top:-23px; 
+        }
+        nav{
+    
+            margin-left: 800px;
+            margin-top:-165px;
+            
+        }
+
+      }

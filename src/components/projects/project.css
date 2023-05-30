@@ -1,13 +1,21 @@
-/************ Projects Css ************/
+
 .project {
     padding: 80px 0;
     position: relative;
-    background-color: black;
+  }
+  .card-project{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: max-content 200px 1fr;
+    grid-gap: 0px;
   }
   .project h2 {
-      font-size: 45px;
-      font-weight: 700;
+    font-family: sofia;
+    font-size: 45px;
+    font-weight: 700;
     text-align: center;
+    margin-top: 12rem;
+    color: #CFB53B;
   }
   .project p {
     color: #B8B8B8;
@@ -18,60 +26,15 @@
     text-align: center;
     width: 56%;
   }
-  .project .nav.nav-pills {
-    width: 72%;
-    margin: 0 auto;
-    border-radius: 50px;
-    background-color: rgb(255 255 255 / 10%);
-    overflow: hidden;
-  }
-  .project .nav.nav-pills .nav-item {
-    width: 33.33333%;
-  }
-  .project .nav.nav-pills .nav-link {
-    background-color: transparent;
-    border-radius: 0;
-    padding: 17px 0;
-    color: #fff;
-    width: 100%;
-    font-size: 17px;
-    letter-spacing: 0.8px;
-    font-weight: 500;
-    position: relative;
-    transition: 0.3s ease-in-out;
-    text-align: center;
-    z-index: 0;
-  }
-  .project .nav.nav-pills .nav-link::before {
-      content: "";
-      position: absolute;
-      width: 0;
-      height: 100%;
-      background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-      top: 0;
-      left: 0;
-      z-index: -1;
-      transition: 0.3s ease-in-out;
-  }
-  .project .nav.nav-pills .nav-link.active::before {
-      width: 100% !important;
-  }
-  .project .nav.nav-pills .nav-link.active {
-      border: 1px solid rgba(255, 255, 255, 1);
-  }
-  .nav-link#projects-tabs-tab-first {
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 55px 0px 0px 55px;
-  }
-  .nav-link#projects-tabs-tab-second {
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  }
-  .nav-link#projects-tabs-tab-third {
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 0 55px 55px 0;
-  }
+.project-image{
+  width: 400px;
+  height: 400px;
+  object-fit: fill;
+}
+
   .proj-imgbx {
+    border:  black solid 1px ;
+    margin: 30px 30px 10px;
     position: relative;
     border-radius: 30px;
     overflow: hidden;
@@ -79,7 +42,7 @@
   }
   .proj-imgbx::before {
     content: "";
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #106710 111.58%);
     opacity: 0.85;
     position: absolute;
     width: 100%;
@@ -115,83 +78,6 @@
     font-size: 15px;
     letter-spacing: 0.8px;
   }
-  .background-image-right {
-    top: 20%;
-    position: absolute;
-    bottom: 0;
-    width: 35%;
-    right: 0;
-    z-index: -4;
-  }
+ 
   
-  /************ Projects Css ************/
-  .contact {
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-    padding: 60px 0 200px 0;
-  }
-  .contact img {
-    width: 50px;
-  }
-  .contact h2 {
-      font-size: 45px;
-      font-weight: 700;
-    margin-bottom: 30px;
-  }
-  .contact form input, .contact form textarea {
-    width: 100%;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
-    color: #fff;
-    margin: 0 0 8px 0;
-    padding: 18px 26px;
-    font-weight: 500;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    transition: 0.3s ease-in-out;
-  }
-  .contact form input:focus, .contact form textarea:focus {
-    background: rgba(255, 255, 255, 1);
-    color: #121212;
-  }
-  .contact form input::placeholder, .contact form textarea::placeholder {
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-  }
-  .contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
-    color: #121212;
-    opacity: 0.8;
-  }
-  .contact form button {
-    font-weight: 700;
-    color: #000;
-    background-color: #fff;
-    padding: 14px 48px;
-    font-size: 18px;
-    margin-top: 25px;
-    border-radius: 0;
-    position: relative;
-    transition: 0.3s ease-in-out;
-  }
-  .contact form button span {
-    z-index: 1;
-    position: relative;
-  }
-  .contact form button:hover {
-    color: #fff;
-  }
-  .contact form button::before {
-    content: "";
-    background: #121212;
-    width: 0;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    transition: 0.3s ease-in-out;
-  }
-  .contact form button:hover::before {
-    width: 100%;
-  }
+  

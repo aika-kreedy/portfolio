@@ -1,4 +1,8 @@
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 .home-page {
   h1 {
@@ -15,6 +19,7 @@
     font-family: 'Neucha', cursive; 
     font-size: 22px;
     letter-spacing:2px;
+    text-align: justify;
   }
   .text-zone {
     position: absolute;
@@ -27,11 +32,55 @@
     max-height: 90%;
   }
   .download-btn{
-    border-radius: 15px;
-    align-items: center;
-    font-family: 'Neucha', cursive; 
-    font-weight: 100;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    background: #020206;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    margin-top: 8px;
+    padding: 8px 16px 8px 16px;
+ 
+  }
+  
+  .download-btn:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0090, #fb00ff, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -3px;
+    left:-3px;
    
+    background-size: 400%;
+    padding: 8px 16px 8px 16px;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 40px;
+    opacity: 1;
+  }
+  
+  .download-btn:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background: #020206;
+    left: 0;
+    top: 0;
+    padding: 8px 16px 8px 16px;
+    border-radius: 40px;
+  }
+   
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
   }
   .aika-photo{
     position: static;
@@ -41,6 +90,7 @@
     height: 100%;
     margin-top: -360px; 
     border-radius: 50%;
+    box-shadow:  20px 20px 20px 20px rgba(227, 3, 171, 0.19);
     
   }
   
@@ -62,42 +112,41 @@
      margin-left: 110%;
       width: 500%;
       height: auto;
-     
-    
     }
     
     h1 {
-      width: 500%;
-      margin-top: 60%;
-      margin-left: 60%;
-      text-align: center;
+      font-size: 11rem;
+      width: 200%;
+      margin-top: 350%;
+      margin-left: 50%;
+      text-align: justify;
       }
 
-    h2{
-      font-size: 12rem;
-      letter-spacing:3px;
-      width: 500%; 
-      margin-left: 100%;
-      text-align: center; 
-       }
+      h2{
+        font-size: 5rem;
+        letter-spacing:3px;
+        width: 200%; 
+        margin-left: 50%;
+       
+       
+         }
       
   
     .download-btn{
-      border-radius: 15px;
-      font-family: 'Neucha', cursive; 
-      width: 400%;
-      background-color:rgb(78, 76, 76);
-      height: 150px;
-      margin-left: 100%;
+      margin-top: 9rem;
+      margin-left: 55%;
+      height: 12rem;
+      width:180%;
+      font-family: sofia;
+    
     
     }
     .aika-photo{
       position: absolute;
-      margin-right:auto;
-      float: right;
-      width: 70%;
-      height: 100%;
-      margin-top: 60px; 
+      margin-left:85%;
+      width: 120%;
+      height: 30%;
+      margin-top: 17%; 
       
       
       
@@ -108,27 +157,24 @@
   
 }}
 
-/////////////
 
-
-@media only screen and (max-width: 1200px){
+@media only screen and (min-width: 992px){
   .home-page {
     h1 {
       font-size: 49px;
-      font-family: 'sofia';
-      color: #CFB53B;
+     
       font-weight: 400;
       margin-top: 0;
       position: relative;
       margin-bottom: 5rem;
-      margin-top: 3rem;
+      margin-top: -2rem;
       left: -10px;
       padding-top: 0px;
     }
     h2{
       font-family: 'Neucha', cursive; 
       font-size: 22px;
-      letter-spacing:2px;
+      
     }
     .text-zone {
       position: absolute;
@@ -145,11 +191,12 @@
       align-items: center;
       font-family: 'Neucha', cursive; 
       font-weight: 100;
+      margin: 8px 0 1px 0;
      
     }
     .aika-photo{
       position: static;
-      margin-right:-420px;
+      margin-right:-400px;
       float: right;
       width: 70%;
       height: 100%;
@@ -166,5 +213,20 @@
     margin-left: 23rem;
   
   } 
+
+}
+@media only screen and (min-width: 1200px){
+  .home-page {
+    .aika-photo{
+      margin-right:-500px;
+      margin-top: -400px; 
+     
+    }
+    .text-zone {
+      position: absolute;
+      left: 12%;}
+    
+  }
+  
 
 }

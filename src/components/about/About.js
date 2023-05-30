@@ -27,13 +27,15 @@ const About = () => {
             />
           </h1>
           <p   className='about-text'>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
-          
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+          I am a full-stack JavaScript developer with a Bachelor's degree in Computer Engineering and a Master's degree in Information Technology. I am passionate about building beautiful and functional web applications that solve real-world problems.
+
+Throughout my academic and professional journey, I have gained extensive experience in front-end development, back-end development, and database management.
+
+As a full-stack developer, I take a holistic approach to problem-solving and am comfortable working on all aspects of a project, from ideation to deployment. I am also a strong collaborator and communicator, and I enjoy working with cross-functional teams to bring ideas to life.
+
+In my free time, I enjoy attending tech conferences and hackathons, where I can network with other developers and learn about emerging technologies. I am also an avid reader and enjoy learning about a wide range of topics, from philosophy to economics.
+
+
           </p>
         </div>
 

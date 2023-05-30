@@ -10,7 +10,7 @@ import Aikaphoto from '../../assests/images/aika-photo.jpg';
     const Home = () => {
         const [letterClass, setLetterClass] = useState('text-animate')
       
-        const nameArray = ['','A', 'i', 'k', 'a']
+        const nameArray = [' ','A', 'i', 'k', 'a']
         const jobArray = [
           'S',
           'o',
@@ -21,7 +21,7 @@ import Aikaphoto from '../../assests/images/aika-photo.jpg';
           'r',
           'e',
           '',
-          'd',
+          'D',
           'e',
           'v',
           'e',
@@ -46,10 +46,10 @@ import Aikaphoto from '../../assests/images/aika-photo.jpg';
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i,</span>
+            <span className={`${letterClass} _12`}>i, </span>
             <br />
             <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>am</span>
+            <span className={`${letterClass} _14`}>am  </span>
             
             <AnimatedLetters
               letterClass={letterClass}
@@ -62,7 +62,7 @@ import Aikaphoto from '../../assests/images/aika-photo.jpg';
               idx={17}/>
           </h1>
            
-          <h2>Software Developer full-stack with passion to frontend blabalahjgysadfyfg dGUQETTGGDFUHEWIUYlkjfdskljgihf</h2>
+          <h2> A passionate Full Stack Software Developer (Front-End and Back-End) ,having an experience of building Web and Mobile application with  JavaScript / Python / React / Nodejs / React Native and some other liberaries and frameworks. </h2>
         
           <button className='download-btn' >
     <a href="assests/cv/aika/cv.pdf" target="_blank" download>

@@ -84,6 +84,8 @@
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
+    text-align: justify;
+   
   }
 
   .text-animate-hover {
@@ -168,6 +170,8 @@
      margin-top: 90%;
      margin-left: 40%;
       width: 90%;
+     
+  
     }
   }
   }
@@ -183,7 +187,7 @@
         font-weight: 400;
         margin-top: 0;
         position: relative;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         left: -10px;
   
         &:before {
@@ -215,6 +219,8 @@
       p {
         font-size: 7rem;
         color: #fff;
+        word-spacing:1px;
+        text-align: center;
         font-family: 'Neucha', cursive;;
         font-weight: 300;
         max-width: fit-content;
@@ -235,10 +241,11 @@
       left: 10%;
       top: 50%;
       transform: translateY(-50%);
-      width:300%;
+      width:500%;
       vertical-align: middle;
       display: table-cell;
       max-height: 90%;
+     
     }
   
     .text-animate-hover {

@@ -13,8 +13,7 @@ const Navbar = () => {
   return (
 <div className='nav-bar'>
 <Link className='logo' to='/' >
-{/*<img className='aika-logo' src='../../assets/images/aika-logo1.png' alt='logo-aika'  ></img>*/}
-<img   className='aika-logo' src= {logoaika} alt='Contact Me!!!!'  ></img>
+<img   className='aika-logo' src= {logoaika} alt='Aika Logo'  ></img>
 </Link> 
 
 <nav>
